@@ -1,0 +1,108 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.secondary-bg{
+    background-image: url(../Assets/Hero-bg.png);
+    max-height: 698px;
+    max-width: 1440px;
+}
+
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 6px;
+}
+h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.nav-title{
+    color: #6747FF;
+    font-weight:900;
+    font-size: 34px;
+}
+
+
+/* banner styles */
+.banner{
+    text-align: center;
+    justify-content: space-between;
+    margin:   154px 267.5px 237px;
+
+}
+.text{
+    margin-bottom: 140px;
+}
+
+
+
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+
+
+
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 150px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="email"],footer input[type="text"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    margin-bottom: 24px;
+    border: none;
+}
