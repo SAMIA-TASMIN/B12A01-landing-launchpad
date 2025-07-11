@@ -83,6 +83,11 @@ main section{
     font-weight: 600;
 }
 
+.action{
+    display: flex;
+    gap: 220px;
+}
+
 
 
 
