@@ -84,6 +84,9 @@ nav{
     font-weight: 400;
     color: rgba(37, 36, 50, 0.5);
 }
+.web-img{
+    border-radius: 30px;
+}
 
 
 /* about styles */
