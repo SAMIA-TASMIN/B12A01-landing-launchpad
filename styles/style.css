@@ -174,16 +174,16 @@ nav{
 
 
 /* footer styles */
-footer{
+.touch-section{
     padding: 130px 230px;
     display: flex;
     gap: 150px;
 }
-.footer-column{
+.section-column{
     width: 50%;
 }
 
-footer input[type="email"],footer input[type="text"], footer textarea{
+.section-column input[type="email"], .section-column input[type="text"], .section-column textarea{
     height: 64px;
     border-radius: 5px;
     background-color: #FFFFFF;
