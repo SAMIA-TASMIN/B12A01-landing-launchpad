@@ -175,8 +175,6 @@ nav{
 
 
 
-
-/* footer styles */
 .touch-section{
     padding: 130px 230px;
     display: flex;
@@ -192,10 +190,12 @@ nav{
     background-color: #FFFFFF;
     display: block;
     width: 100%;
-    padding: 10px 16px;
-    margin-bottom: 24px;
-    border: none;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border-color: wheat;
 }
+
+/* footer styles */
 .extra{
     text-align: center;
     margin: 104px 454px;
