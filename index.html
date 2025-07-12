@@ -10,6 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <script
       src="https://kit.fontawesome.com/d7b7563d24.js"
@@ -17,10 +23,10 @@
     ></script>
   </head>
 
-  <body class="open-sans-normal">
+  <body class="open-sans-btn">
     <header class="secondary-bg">
       <nav>
-        <h3 class="nav-title">LOGO</h3>
+        <h3 class="nav-title open-sans-normal">LOGO</h3>
         <button class="btn-primary">Sign Up</button>
       </nav>
       <div class="banner">
@@ -31,20 +37,95 @@
 
     <main>
       <section class="action">
-        <div class="">
-          <h3>See It in Action</h3>
-          <p>
+        <div>
+          <h3 class="action-heading">See It in Action</h3>
+          <p class="action-sub">
             Explore the live preview and imagine your brand in this bold new
             look.
           </p>
           <button class="btn-primary">Launch Live Preview</button>
         </div>
-        <img src="Assets/wc-mini.png" alt="">
-    
+        <img src="Assets/wc-mini.png" alt="" />
+      </section>
+      <section class="about">
+        <h3 class="about-title">Joined Thousands of Productive Users</h3>
+        <div class="about-items">
+          <div>
+            <h1 class="view">50K</h1>
+            <p class="para open-sans-normal">Active Users</p>
+          </div>
+          <div>
+            <h1 class="view">2M+</h1>
+            <p class="para open-sans-normal">Focus Sessions</p>
+          </div>
+          <div>
+            <h1 class="view">95%</h1>
+            <p class="para open-sans-normal">Satisfaction Rate</p>
+          </div>
+        </div>
+      </section>
+      <section class="opinion">
+        <h3 class="opinion-title">What our users say</h3>
+        <div class="skills-container">
+          <!-- .skill*4>img+h4.skill-title+p.skill-description -->
+          <div class="skill">
+            <img src="Assets/icon-star.png" alt="" />
+            <h4 class="skill-title">Loved by Designers</h4>
+            <p class="skill-description">
+              This template instantly leveled up our presence.” – Studio Vertex
+            </p>
+            <div class="pic-container">
+              <img class="five" src="Assets/avatar.png" alt="" />
+              <div class="review-date">
+                <input type="text" placeholder="Reviewer name" name="" id="" />
+                <br>
+                <input type="datetime" placeholder="Date" name="" id="">
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="Assets/icon-star.png" alt="" />
+            <h4 class="skill-title">Loved by Designers</h4>
+            <p class="skill-description">
+              This template instantly leveled up our presence.” – Studio Vertex
+            </p>
+            <div class="pic-container">
+              <img src="Assets/avatar.png" alt="" />
+              <div class="review-date">
+                <input type="text" placeholder="Reviewer name" name="" id="" />
+                <br>
+                <input type="datetime" placeholder="Date" name="" id="">
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <img src="Assets/icon-star.png" alt="" />
+            <h4 class="skill-title">Loved by Designers</h4>
+            <p class="skill-description">
+              This template instantly leveled up our presence.” – Studio Vertex
+            </p>
+            <div class="pic-container">
+              <img src="Assets/avatar.png" alt="" />
+              <div class="review-date">
+                <input type="text" placeholder="Reviewer name" name="" id="" />
+                <br>
+                <input type="datetime" placeholder="Date" name="" id="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="use">
+        <h1 class="use-title">Ready to focus better</h1>
+        <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+        <button class="btn-primary">Get Started Free</button>
+        <br>
+        <img class="wc" src="Assets/wc-big.png" alt="">
       </section>
       <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
     </main>
-    <footer class="secondary-bg">
+
+    <footer>
       <div class="footer-column">
         <h1 class="section-title">Let’s Get in Touch</h1>
       </div>
