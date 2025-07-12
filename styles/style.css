@@ -29,6 +29,9 @@
     padding: 12px 36px;
     border-radius: 6px;
 }
+.btn-primary:hover{
+    background-color: #8987A1;
+}
 h1{
     font-size: 65px;
     font-weight: bold;
