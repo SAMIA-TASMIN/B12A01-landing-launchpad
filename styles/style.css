@@ -118,18 +118,18 @@ nav{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
+.opinion{
+    margin: 100px 150px;
+}
 .opinion-title{
     font-weight: bold;
     font-size: 42px;
     color: #252432;
     text-align: center;
 }
-.skills-container{
-    display: flex;
-}
 .review-date{
-    border: none;
-
+    border-color: #FFFFFF;
+    margin-left: 5px;
 }
 .pic-container{
     display: flex;
@@ -169,9 +169,10 @@ nav{
 }
 
 .skill{
-    padding: 30px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: left;
 }
 
 .avatar-pic{
