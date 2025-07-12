@@ -162,6 +162,7 @@ nav{
 }
 
 /* skill */
+
 .skills-container{
     display: flex;
     gap: 24px;
@@ -171,6 +172,11 @@ nav{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.avatar-pic{
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover;
 }
 
 
@@ -210,15 +216,16 @@ nav{
     color: #8987A1;
 }
 
- ul{
+ footer ul{
     display: flex;
     justify-content: space-between;
 }
- ul li {
+
+footer ul li {
     list-style: none;
 }
 
-li a {
+footer li a {
     text-decoration: none;
     font-size: 15px;
     color: #8987A1;
